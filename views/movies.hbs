@@ -1,0 +1,11 @@
+<h1>Movies page</h1>
+<section class="moviespage"></section>
+  {{#each respuesta}}
+  <div class="moviediv">
+      <img src="{{this.image}}" alt="">
+      <p>{{this.title}}</p>
+      <p>{{this.director}}</p>
+  </div>
+  <a href="show/{{this.id}}">Go details page</a>
+{{/each}}
+</section>

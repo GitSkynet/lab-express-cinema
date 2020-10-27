@@ -6,3 +6,17 @@ body {
 a {
   color: #00B7FF;
 }
+
+.moviespage{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.moviediv{
+  width: auto;
+  height: auto;
+}
